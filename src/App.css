@@ -1,0 +1,39 @@
+html {
+  overflow: hidden;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+}
+
+.fish-tank {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: url('./fishes/bg.jpg');
+}
+.fish {
+  filter: brightness(93.5%) contrast(88%);
+}
+
+@keyframes wiggle {
+  0% {
+    transform: translateY(-0.5em);
+  }
+  100% {
+    transform: translateY(0.5em);
+  }
+}
